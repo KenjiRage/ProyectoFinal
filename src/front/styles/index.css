@@ -1,0 +1,323 @@
+.nextRegion {
+  position: absolute;
+  top: 50%;
+  right: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.previousRegion {
+  position: absolute;
+  top: 50%;
+  left: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.nextPatrimony {
+  position: absolute;
+  top: 50%;
+  right: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.previousPatrimony {
+  position: absolute;
+  top: 50%;
+  left: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.nextRestoration {
+  position: absolute;
+  top: 50%;
+  right: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.previousRestoration {
+  position: absolute;
+  top: 50%;
+  left: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.nextAccommodation {
+  position: absolute;
+  top: 50%;
+  right: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.previousAccommodation {
+  position: absolute;
+  top: 50%;
+  left: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.nextExperience {
+  position: absolute;
+  top: 50%;
+  right: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.previousExperience {
+  position: absolute;
+  top: 50%;
+  left: 13vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.card-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo-card {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.custom-discover {
+  background-image: url("https://media.iatiseguros.com/wp-content/uploads/2019/06/04011546/viajar-en-verano-6.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+}
+.card-row {
+  position: relative;
+}
+
+.img-accommodation {
+  float: right;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.img-restoration {
+  float: right;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.img-patrimony {
+  float: right;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.img-route {
+  float: right;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.buttonhome {
+  text-decoration: none; /* quita la subrayado del hipervínculo */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttonhome a {
+  text-decoration: none;
+  color: inherit;
+}
+.a:hover {
+  color: #000000;
+}
+.card-img-top {
+  object-fit: cover;
+}
+
+.card-logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+}
+
+.card-fav {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+.namecard {
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.mb-n1 {
+  margin: 20px 0px 0px 0px;
+}
+
+.button-pur {
+  margin: 10px 0px 0px 15px;
+  border-style: dashed;
+  border-color: #e62848;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.fa-camera {
+  color: #e62848;
+}
+
+.file-select {
+  position: relative;
+  display: inline-block;
+}
+
+.file-select::before {
+  background-color: #5678ef;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  content: ""; /* testo por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 200px;
+  height: 120px;
+  display: inline-block;
+}
+
+#src-file1::before {
+  background: url(https://cdn-icons-png.flaticon.com/512/56/56887.png?w=740&t=st=1679138165~exp=1679138765~hmac=e2ff16c4074447de6e1b49b8081d6fd492b6f64a51d48137b4ac48a4303a06ea)
+    center center no-repeat;
+  background-size: 60px;
+  border-style: dashed;
+  border-color: #e62848;
+  padding: 30px;
+}
+
+#src-file1:hover {
+  background-color: #e62848;
+  border-color: aliceblue;
+  border-style: dashed;
+}
+
+#src-file2::before {
+  content: "Seleccionar Archivo 2";
+}
+
+.profileuserregionlogo {
+  margin: 75px 0px -10px 10px;
+}
+
+.profileuserregionlogo1 {
+  margin: 10px 0px -10px 10px;
+}
+
+.boxcomment {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.boxcomment h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.boxcomment h5 small {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.boxcomment h5 small::before {
+  content: "-";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.boxcomment div {
+  margin-top: 10px;
+}
+
+.boxcomment div h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.card-row {
+  margin-top: 100px; /* Ajusta esta cantidad para que el título quede centrado */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.carddisco {
+  margin-top: -45px;
+}
+
+.detailcitycard {
+  margin-top: -40px;
+}
+
+.nextPatrimonyRegion {
+  position: absolute;
+  top: 30%;
+  right: -2vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.previousPatrimonyRegion {
+  position: absolute;
+  top: 30%;
+  left: -2vw;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.titulo {
+  text-shadow: 0px 5px 7px black;
+}
